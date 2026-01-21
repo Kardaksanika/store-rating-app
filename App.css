@@ -1,0 +1,74 @@
+/* Full page background */
+.login-container {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1521791136064-7986c2920216");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Card */
+.login-card {
+  background: #ffffff;
+  width: 350px;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo */
+.logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+/* Headings */
+.login-card h2 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.subtitle {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+.login-card input:focus {
+  border-color: #4f46e5;
+}
+
+/* Button */
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-card button:hover {
+  background: #3730a3;
+}
